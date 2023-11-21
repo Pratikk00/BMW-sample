@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    
+    height: 250px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+
+}
+.mg{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.img-box{
+    height: 200px;
+    width: 300px;
+    padding:0px 25px 0px 25px;
+    background-color:lavender;
+    object-fit: contain;
+}
+.box{
+    padding:0px 25px 0px 25px;
+    margin-top: 10px;
+    
+}
+.book{
+    display: flex;
+    justify-content: center;
+}
+
+.sedan{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cd{
+    height: 200px;
+    width: 400px;
+    object-fit: contain;
+
+}
+.out{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    
+    padding: 0px 20px 0px 20px ;
+    margin: 5px 20px 5px 20px;
+    background-color: rgba(129, 129, 129, 0.473);
+    border-radius: 20px;
+}
+
+.btn{
+   
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-color:#0099ff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #0099ff;
+    border-radius: 5px;
+    transition: 0.5s; 
+}
+
+.btn:hover{
+   
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: 0.5s; 
+}
+
+.btn:hover a{
+    color: black;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}
